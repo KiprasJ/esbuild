@@ -1,0 +1,21 @@
+@import 'variables';
+
+html {
+  overscroll-behavior-y: none;
+  #root {
+    height: 100%;
+  }
+}
+
+body.noscroll { overflow: hidden; }
+
+@mixin linear-gradient-background($degree) {
+  background: linear-gradient(
+                  $degree,
+                  var(--action-light-alert) 10.74%,
+                  var(--brand-light-hot-pink) 42.16%,
+                  var(--brand-light-powered-purple) 66.11%,
+                  var(--brand-light-fresh-blue) 89.79%
+  );
+}
+
