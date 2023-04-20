@@ -1,4 +1,6 @@
 @import 'variables';
+@import 'breakpoints';
+@import 'typography.module.scss';
 
 html {
   overscroll-behavior-y: none;

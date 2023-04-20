@@ -3,11 +3,13 @@ import logo from './logo.svg';
 import './App.scss';
 import styles from './App.module.scss';
 import './globals/static.scss';
+import { Text as Textcomp } from './components/base/text/text';
 
 function App() {
   return (
       <div className={styles.container}>
         <div className="App">
+          <Textcomp>Test</Textcomp>
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
             <p>

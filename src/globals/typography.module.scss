@@ -1,0 +1,153 @@
+$font-name: 'Inter';
+$header-font-name: 'Poppins';
+$font-weight--regular: 400;
+$font-weight--semibold: 600;
+$font-weight--bold: 700;
+
+$base-font-size: 0.85rem;
+
+$icon-large-size: 2em;
+$icon-large-width: $icon-large-size;
+$icon-large-height: $icon-large-size;
+
+$icon-medium-size: 1.5em;
+$icon-medium-width: $icon-medium-size;
+$icon-medium-height: $icon-medium-size;
+
+$icon-small-size: 1em;
+$icon-small-width: $icon-small-size;
+$icon-small-height: $icon-small-size;
+
+.h1xxlb {
+  font-size: 3.5rem;
+  line-height: 4rem;
+  font-weight: var(--font-weight--bold);
+  font-family: $header-font-name, sans-serif;
+}
+
+.h1xxls {
+  font-size: 3.5rem;
+  line-height: 4rem;
+  font-weight: var(--font-weight--semibold);
+  font-family: $header-font-name, sans-serif;
+}
+
+.h2ls {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: var(--font-weight--semibold);
+  font-family: $header-font-name, sans-serif;
+}
+
+.h2l {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: var(--font-weight--regular);
+  font-family: $header-font-name, sans-serif;
+}
+
+.h3ms {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: var(--font-weight--semibold);
+  font-family: $header-font-name, sans-serif;
+}
+
+.h3m {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: var(--font-weight--regular);
+  font-family: $header-font-name, sans-serif;
+}
+
+.h4ss {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: var(--font-weight--semibold);
+  font-family: $header-font-name, sans-serif;
+}
+
+.h4s {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: var(--font-weight--regular);
+  font-family: $header-font-name, sans-serif;
+}
+
+.h5xss {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: var(--font-weight--semibold);
+  font-family: $header-font-name, sans-serif;
+}
+
+.h5xs {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: var(--font-weight--regular);
+  font-family: $header-font-name, sans-serif;
+}
+
+.textlb {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: var(--font-weight--bold);
+  font-family: $font-name, sans-serif;
+}
+
+.textls {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: var(--font-weight--semibold);
+  font-family: $font-name, sans-serif;
+}
+
+.textl {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: var(--font-weight--regular);
+  font-family: $font-name, sans-serif;
+}
+
+.textmb {
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: var(--font-weight--bold);
+  font-family: $font-name, sans-serif;
+}
+
+.textms {
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: var(--font-weight--semibold);
+  font-family: $font-name, sans-serif;
+}
+
+.textss {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: var(--font-weight--semibold);
+  font-family: $font-name, sans-serif;
+}
+
+@mixin textm {
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: var(--font-weight--regular);
+  font-family: $font-name, sans-serif;
+}
+
+@mixin textss {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: var(--font-weight--semibold);
+  font-family: $font-name, sans-serif;
+}
+
+.textss {
+  @include textss;
+}
+
+.textm {
+  @include textm;
+}

@@ -10,11 +10,11 @@ esbuild.build({
     outdir: 'out',
     plugins: [sassPlugin({
         cssImports: true,
-        importMapper: (path) => {
-            if(path === 'src/globals/global') {
-                return path.replace(path, './src/globals/global.scss')
-            }
-            return path
-        }
+        // importMapper: (path) => {
+        //     if(path === 'src/globals/global') {
+        //         return path.replace(path, './src/globals/global.scss')
+        //     }
+        //     return path
+        // }
     }), inlineImage()]
 })

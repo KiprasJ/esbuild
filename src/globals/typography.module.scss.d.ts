@@ -1,0 +1,20 @@
+declare const styles: {
+  readonly h1xxlb: string;
+  readonly h1xxls: string;
+  readonly h2ls: string;
+  readonly h2l: string;
+  readonly h3ms: string;
+  readonly h3m: string;
+  readonly h4ss: string;
+  readonly h4s: string;
+  readonly h5xss: string;
+  readonly h5xs: string;
+  readonly textlb: string;
+  readonly textls: string;
+  readonly textl: string;
+  readonly textmb: string;
+  readonly textms: string;
+  readonly textm: string;
+  readonly textss: string;
+};
+export = styles;
